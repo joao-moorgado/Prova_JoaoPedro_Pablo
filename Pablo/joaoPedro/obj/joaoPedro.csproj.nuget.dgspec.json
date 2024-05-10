@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/joao_morgado/Documents/Pablo/joaoPedro/joaoPedro.csproj": {}
+    "/home/joao_morgado/Documents/Prova/Pablo/joaoPedro/joaoPedro.csproj": {}
   },
   "projects": {
-    "/home/joao_morgado/Documents/Pablo/joaoPedro/joaoPedro.csproj": {
+    "/home/joao_morgado/Documents/Prova/Pablo/joaoPedro/joaoPedro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/joao_morgado/Documents/Pablo/joaoPedro/joaoPedro.csproj",
+        "projectUniqueName": "/home/joao_morgado/Documents/Prova/Pablo/joaoPedro/joaoPedro.csproj",
         "projectName": "joaoPedro",
-        "projectPath": "/home/joao_morgado/Documents/Pablo/joaoPedro/joaoPedro.csproj",
+        "projectPath": "/home/joao_morgado/Documents/Prova/Pablo/joaoPedro/joaoPedro.csproj",
         "packagesPath": "/home/joao_morgado/.nuget/packages/",
-        "outputPath": "/home/joao_morgado/Documents/Pablo/joaoPedro/obj/",
+        "outputPath": "/home/joao_morgado/Documents/Prova/Pablo/joaoPedro/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/joao_morgado/.nuget/NuGet/NuGet.Config"
