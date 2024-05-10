@@ -48,6 +48,4 @@ app.MapGet("api/folha/listar",
     return Results.NotFound("Tabela vazia!");
 });
 
-
-
 app.Run();

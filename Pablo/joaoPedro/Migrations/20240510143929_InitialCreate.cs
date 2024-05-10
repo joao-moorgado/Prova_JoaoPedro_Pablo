@@ -15,11 +15,12 @@ namespace joaoPedro.Migrations
                 columns: table => new
                 {
                     Id = table.Column<string>(type: "TEXT", nullable: false),
-                    Valor = table.Column<double>(type: "REAL", nullable: false),
+                    Valor = table.Column<int>(type: "INTEGER", nullable: false),
                     Quantidade = table.Column<int>(type: "INTEGER", nullable: false),
                     Mes = table.Column<int>(type: "INTEGER", nullable: false),
                     Ano = table.Column<int>(type: "INTEGER", nullable: false),
-                    FuncionarioId = table.Column<int>(type: "INTEGER", nullable: false)
+                    FuncionarioId = table.Column<int>(type: "INTEGER", nullable: false),
+                    SalarioBruto = table.Column<double>(type: "REAL", nullable: false)
                 },
                 constraints: table =>
                 {

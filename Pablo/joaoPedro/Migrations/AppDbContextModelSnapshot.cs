@@ -33,8 +33,11 @@ namespace joaoPedro.Migrations
                     b.Property<int>("Quantidade")
                         .HasColumnType("INTEGER");
 
-                    b.Property<double>("Valor")
+                    b.Property<double>("SalarioBruto")
                         .HasColumnType("REAL");
+
+                    b.Property<int>("Valor")
+                        .HasColumnType("INTEGER");
 
                     b.HasKey("Id");
 
