@@ -13,7 +13,7 @@ public class FolhaPagamento {
         Mes = mes;
         Ano = ano;
         FuncionarioId = funcionarioId;
-        SalarioBruto = salarioBruto(valor, quantidade);
+        SalarioBruto = CalculoSalarioBruto(valor, quantidade);
     }
 
     public string? Id { get; set; }
@@ -24,7 +24,7 @@ public class FolhaPagamento {
     public int FuncionarioId { get; set; }
     public double SalarioBruto { get; set; }
 
-    public double salarioBruto(int valor, int quantidade) {
+    public double CalculoSalarioBruto(int valor, int quantidade) {
         return valor * quantidade;
     }
 
